@@ -1,8 +1,8 @@
 {
 "scripts": {
-"start": "pm2 start index.js --deep-monitoring --attach --name prabath-md",
-"stop": "pm2 stop prabath-md",
-"restart": "pm2 restart prabath-md"
+"start": "pm2 start index.js --deep-monitoring --attach --SAMPATH MD",
+"stop": "pm2 stop SAMPATH MD",
+"restart": "pm2 restart SAMPATH MD"
 },
 "dependencies": {
 "@whiskeysockets/baileys": "git+https://github.com/prabathLK/Baileys.git",
